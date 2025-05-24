@@ -39,11 +39,19 @@ To run this app locally:
    ```bash
    cd bmi-calculator-app 
 
-3. Install the required dependencies:
+3. Create a virtual enviroment:
+   ```bash
+   python -m venv .venv
+
+4. Activate the virtual enviroment:
+   ```bash
+   source .venv/bin/activate
+
+5. Install the required dependencies:
    ```bash
    pip install streamlit
  
-4. Run the app: 
+6. Run the app: 
    ```bash
    streamlit run bmi_calculator.py
 
